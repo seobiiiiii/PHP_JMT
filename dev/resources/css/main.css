@@ -1,0 +1,147 @@
+	/**
+	@author : Oh Tae Gwan
+	@content : 메인 영역 CSS
+	@date : 2022-11-08
+	@update : 2022-12-01
+**/
+
+
+/** 기본 셋팅 **/
+body {
+	margin: 0px;
+	background-size: cover;
+	background-position: center;
+}
+html, body {
+	height: 100%;
+}
+
+/** Section 셋팅 **/
+section{
+	width: 100%;
+    height: auto;
+}
+  
+/** 메인 전체 영역 **/
+.index-section-wrap{
+	display: flex;
+	height: 800px;
+	margin-top: 2%;
+}
+
+/** 맛집랭킹 영역**/
+.index-section-left-area{
+	width: 33.33%;
+}
+.index-section-left-title-area {
+	margin-left: 17%;
+	margin-right: 68%;	
+	margin-top: 10%;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: #FF6B19;
+	text-underline-position: under;
+}
+.index-section-left-contents-area {
+	width: 55%;
+	margin: auto;
+	border: 2px solid #B1B1B1;
+	padding: 5%;
+	text-align: center;
+}
+.index-section-left-contents-area > hr {
+	width: 100%;
+	background: #B1B1B1;
+}
+.index-section-left-contents-area > p:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/** 점심 메뉴 추천 & 학식 영역**/
+.index-section-center-area {
+	width: 33.33%;
+}
+.index-section-center-up-area {
+	height: 30%;
+}
+.index-section-center-up-title-area {
+	margin-left: 17%;	
+	margin-right: 58%;
+	margin-top: 10%;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: #FF6B19;
+	text-underline-position: under;
+}
+.index-section-center-up-contents-area {
+	width: 55%;
+	margin: auto;
+	border: 2px solid #B1B1B1;
+	padding: 5%;
+	text-align: center;
+}
+.index-section-center-up-contents-area > input {
+	background-color: #1D56A2;
+	color: white;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	width: 100px;
+	padding: 10px;
+}
+.index-section-center-up-contents-area > input:hover {
+	cursor: pointer;
+	background: #333333;
+}
+.index-section-center-down-area{
+	height: 30%;
+}
+.index-section-center-down-title-area {
+	margin-left: 17%;
+	margin-right: 75.5%;	
+	margin-top: 10%;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: #FF6B19;
+	text-underline-position: under;
+}
+.index-section-center-down-title-area:hover {
+	cursor: pointer;
+}
+.index-section-center-down-contents-area {
+	width: 55%;
+	margin: auto;
+	border: 2px solid #B1B1B1;
+	padding: 5%;
+	text-align: center;
+	cursor: pointer;
+}
+
+/** 리뷰 영역 **/
+.index-section-right-area {
+	width: 33.33%;
+}
+.index-section-right-title-area {
+	margin-left: 17%;	
+	margin-right: 75.5%;
+	margin-top: 10%;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-decoration-color: #FF6B19;
+	text-underline-position: under;
+}
+.index-section-right-title-area:hover {
+	cursor: pointer;
+}
+.index-section-right-contents-area {
+	width: 55%;
+	margin: auto;
+	border: 2px solid #B1B1B1;
+	padding: 5%;
+	text-align: center;
+}
+.index-section-right-contents-area > p:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

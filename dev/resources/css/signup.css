@@ -1,0 +1,135 @@
+/**
+	@author : Oh Tae Gwan
+	@content : 회원가입 페이지 CSS
+	@date : 2022-11-08
+	@update : 2022-12-01
+**/
+
+
+/** 기본 셋팅 **/
+body {
+	margin: 0px;
+	background-size: cover;
+	background-position: center;
+}
+html, body {
+	height: 100%;
+}
+
+/** Section 셋팅 **/
+section {
+	width: 100%;
+    height: auto;
+    overflow-x: hidden; 
+}
+
+/** 회원가입 영역 **/
+.signup-wrap {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10%;
+}
+.signup-title-area > h2 {
+	margin-left: 15%;
+	margin-right: 78.5%;
+	margin-top: 5%;
+}
+.signup-title-area > hr {
+	width: 70%;
+	height: 2px;
+	background-color: black;
+	border: 0px;
+}
+.signup-welcome-text-area {
+	margin: auto;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;	
+}
+.signup-input-id-area {
+	text-align: center;
+	margin-left: 2.65%;
+    width: 100%;
+}
+.signup-input-id-area > input {
+	width: 20%;
+	height: 15px;
+	font-size: medium;	
+	margin-bottom: 1.5%;
+	padding: 10px;	
+}
+.signup-input-id-area > #id_chk{
+	width: 5%;
+	height: 35px;
+	padding: 0px;
+	background-color: #555555;
+	border: 0;
+	color: white;
+	font-size: small;
+	border-radius: 0px;
+}
+.signup-input-id-area > #id_chk:hover{
+	background-color: #333333;
+	border: 0;
+	color: white;
+	cursor: pointer;
+}
+.signup-input-pw-area{
+	text-align: center;	
+}
+.signup-input-pw-area > input {
+	width: 20%;
+	height: 15px;
+	font-size: medium;
+	margin-bottom: 1.5%;
+	padding: 10px;	
+}
+.signup-input-pw-chk-area{
+	text-align: center;
+}
+.signup-input-pw-chk-area > input {
+	width: 20%;
+	height: 15px;
+	font-size: medium;
+	padding: 10px;	
+}
+.signup-btn-area{
+	text-align: center;
+	margin-top: 1.5%;
+}
+input[type=submit]{
+	width: 21.5%;
+	height: 45px;
+	margin-bottom: 1%;
+	border-color: #1D56A2;
+	border: 0.01px;
+	outline: 0;	
+	background-color: #1D56A2;
+	color: white;
+	padding: 5px;
+	font-size: medium;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	border: #1D56A2 solid;
+	background-color: white;
+	color: #1D56A2;
+}
+.signup-cancel-btn-area > input{
+	width: 21.5%;
+	height: 45px;
+	margin-bottom: 1%;
+	outline: 0;
+	padding: 5px;
+	font-size: medium;
+	border: #333333 solid;
+	background-color: white;
+	color: #333333; 
+	font-weight: bold;
+}
+.signup-cancel-btn-area > input:hover{
+	cursor: pointer;
+	background-color: #333333; 
+	color: white;
+}

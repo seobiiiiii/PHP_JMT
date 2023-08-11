@@ -1,0 +1,79 @@
+/**
+	@author : Oh Tae Gwan
+	@content : 맛집 리스트 페이지 CSS
+	@date : 2022-11-08
+	@update : 2022-12-02
+**/
+
+/** 기본 셋팅 **/
+body {
+	margin: 0px;
+	background-size: cover;
+	background-position: center;
+}
+html, body {
+	height: 100%;
+}
+
+/** Section 셋팅 **/
+section {
+	width: 100%;
+    height: auto;
+}
+
+/** 맛집 리스트 영역 **/
+.store_list-wrap {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10%;	
+}
+
+/** 맛집 리스트 제목 영역 **/
+.store_list-title-area > h2 {
+	margin-left: 15%;
+	margin-right: 76.5%;
+	margin-top: 5%;
+}
+.store_list-title-area > hr {
+	width: 70%;
+	height: 2px;
+	background-color: black;
+	border: 0px;
+}
+
+/** 테이블 영역 **/
+.store_list-table-area {
+	padding-top: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+table {
+	width: 100%;
+	height: 100%;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+table th {
+	width: 25%;
+	height: 249.37px;
+}
+table td {
+	width: 25%;
+	height: 249.37px;
+	text-align: center;
+	background-color: #F3F4F8;
+	font-size: large;
+	font-weight: bold;
+}
+table td:hover {
+	background-color: #FF6B19;
+	color: white;
+	cursor: pointer;
+}
+table th #dmu_logo {
+	width: 100%;
+	height: 251.87px;
+}
+table td #food {
+	width: 55%;
+}

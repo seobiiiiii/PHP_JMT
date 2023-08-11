@@ -1,0 +1,214 @@
+/**
+	@author : Oh Tae Gwan
+	@content : 맛집 제보 페이지 CSS
+	@date : 2022-11-08
+	@update : 2022-12-03
+**/
+
+/** 기본 셋팅 **/
+body {
+	margin: 0px;
+	background-size: cover;
+	background-position: center;
+}
+html, body {
+	height: 100%;
+}
+
+/** Section 셋팅 **/
+section {
+	width: 100%;
+    height: auto;
+}
+
+/** 맛집 제보 전체 영역 **/
+.store_report-wrap {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10%;
+}
+/** 맛집 제보 제목 영역 **/ 
+.store_report-title-area > h2 {
+	margin-left: 15%;
+	margin-right: 78%;
+	margin-top: 5%;
+}
+.store_report-title-area > hr {
+	width: 70%;
+	height: 2px;
+	background-color: black;
+	border: 0px;
+}
+/** 맛집이름, 음식분야, 개인적인 평점 및 리뷰 감싸는 영역 **/
+.store_report-input-area{
+	width: 70%;
+	margin: auto;
+	display: flex;
+}
+/** 맛집이름, 음식분야, 개인적인 평가 및 리뷰 영역 **/
+.store_report-input-left-area {
+	width: 60%;
+}
+/** 맛집이름 제목 영역 **/
+.store_report-input-left-name-wrap-area {
+	width: 100%;
+	height: auto;
+	padding-bottom: 5%;
+}
+/** 맛집이름 input 영역 */
+#store_report-input-left-name-input-area {
+	width: 95%;
+    height: 15px;
+    padding: 10px;
+    border-radius: 0px solid;
+}
+/** 맛집이름 padding-bottom **/
+.div-padding {
+	padding-bottom: 2%;
+}
+/** 맛집이름, 음식분야, 개인적인 평가 및 리뷰 영역 **/
+.store_report-input-left-field-select-wrap-area {
+	display: flex;
+	width: 100%;
+	margin-right: 10px;
+}
+/** 음식 분야 select 박스 영역 **/
+.store_report-input-left-field-select-wrap-area{
+	width: 100%;
+}
+/** 음식 분야 select 박스 **/
+select {
+	width: 100px;
+	height: 38.5px;
+	padding: 10px;
+	border-radius: 0px;
+	font-size: small;
+}
+/** 음식 분야 select 박스, text 간격 영역 **/
+.store_report-input-left-field-select-area {
+	margin-right: 10px;
+}
+/** 음식 분야 text 영역 **/
+.store_report-input-left-field-input-area {
+	width: 100%;
+}
+/** 음식 분야 text 사이즈 영역 **/
+#store_report-etc{
+	width: 94%;
+    height: 15px;
+    padding: 10px;
+}
+/** 음식 분야 padding-bottom **/ 
+.store_report-input-left-field-wrap-area{
+	padding-bottom: 5%;
+}
+/** 리뷰 textarea 감싸는 영역 **/
+.store_report-input-left-review-textarea-area {
+	width: 100%;
+}
+/** 리뷰 textarea 영역 **/
+.store_report-input-left-review-textarea-area textarea {
+	resize: none;
+	font-size: 17px;
+	width: 95%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 0px;
+}
+/** 별점 올려주기 **/
+#star-rating{
+	margin-top: -2%;
+}
+/** 위치 감싸는 영역 **/
+.store_report-input-right-area{
+	width: 40%;
+	/** border: 1px solid; **/
+	margin-left: 10px;
+	padding-top: 2%;
+}
+
+/** 별점 영역 **/
+fieldset{
+	margin-left: -15px;
+}
+#star-rating fieldset {
+	display: inline-block; /* 하위 별점 이미지들이 있는 영역만 자리를 차지함.*/
+	direction: rtl; /* 이모지 순서 반전 */
+	border: 0; /* 필드셋 테두리 제거 */
+}
+input[type=radio] {
+	display: none; /* 라디오박스 감춤 */
+}
+label {
+	font-size: 1em; /* 이모지 크기 */
+	color: transparent; /* 기존 이모지 컬러 제거 */
+	text-shadow: 0 0 0 #f0f0f0; /* 새 이모지 색상 부여 */
+}
+label:hover {
+	text-shadow: 0 0 0 #FF6B19; /* 마우스 호버 */
+}
+label:hover ~ label {
+	text-shadow: 0 0 0 #FF6B19; /* 마우스 호버 뒤에오는 이모지들 */
+}
+input[type=radio]:checked ~ label {
+	text-shadow: 0 0 0 #FF6B19; /* 마우스 클릭 체크 */
+}
+
+.menu-food-img-wrap{
+	width: 70%;
+	display: flex;
+	margin: auto;
+}
+.menu-img-file-area{
+	border: 1px solid;
+	padding: 10px;
+}
+.menu-wrap-area{
+	width: 50%;
+	padding-top: 5%;
+}
+.food-img-file-area{
+	border: 1px solid;
+	padding: 10px;
+}
+.menu-img-file-area [type="file"]:hover{
+	cursor: pointer;
+}
+input[type=file]::file-selector-button {
+  width: 100px;
+  height: 30px;
+  background: #555555;	
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+input[type=file]::file-selector-button:hover {
+  background: #333333;
+  color: white;
+  cursor: pointer;
+}
+.food-wrap-area{
+	width: 50%;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+.food-img-file-area input:hover{
+	cursor: pointer;
+}
+.store-report-btn-area{
+	text-align: center;
+	padding-top: 5%;
+}
+#store-report-submit{
+	background-color: #1D56A2;
+	color: white;
+	border: 0;
+	width: 150px;
+	padding: 15px;
+	font-size: medium;
+}
+#store-report-submit:hover{
+	background-color: #333333;
+	color: white;
+	cursor: pointer;
+}
